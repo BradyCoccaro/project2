@@ -1,0 +1,138 @@
+@charset "UTF-8";
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(images/insidethemind.gif);	
+   
+   
+    
+	
+}
+main {
+    width: 578px;
+    height: 4000px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+footer {
+    width: 768px;
+    height: 50px;
+    float: none;
+    clear: both;
+    background-color: #6BE7FE;
+}
+body {
+    background-color: #9C85F0;
+    font-size: 14pt;
+    background-image: url(images/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  }
+
+#container{
+    width: 768px;
+    height: auto;
+    background-color: rgba(255,255,255,1.00);
+	margin: auto;
+	
+}
+
+aside {
+    width: 150px;
+    height: 4550px;
+    float: left;
+    background-color: #646464
+}
+/*FLoat the Main so it shows up next to the Aside. Rudece width bty 150px so they both line up with the header*/
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h1 {
+    color: #6BE7FE;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+img{
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;	
+}
+
+.floatLeft {
+	float: left;
+
+}
+article {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    width: 540px;
+    text-align: left;
+}nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    margin: 0px 40px 0px 0px;
+    width: 60px;
+    float: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 20px;
+}
+#container nav ul{
+    margin: auto;
+    width: 430px;
+}
+nav a:link {
+    color: #6BE7FE;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FCFCFC;
+	background-color: #6BE7FE;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+
+.submit_btn {
+    width: 170px;
+	height: 30px;
+    border-radius: 10px;
+    background-color: #6BE7FE;
+    color: #FFFFFF;
+    font-size: 16px;
+    }
+
+.submit_btn:hover {
+    -webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
